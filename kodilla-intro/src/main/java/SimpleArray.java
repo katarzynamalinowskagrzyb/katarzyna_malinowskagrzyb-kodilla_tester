@@ -8,9 +8,10 @@ public class SimpleArray {
         ourAnimals[4] = "Lion";
        // full commend: String[] ourAnimals = new ourAnimals[] {"Cat", "Dog", "Bird", "Flamingo", "Lion"};
 
-
         String Animal = ourAnimals[3];
         System.out.println( "Animal in the index of 3 is" + Animal);
+
+
         int numberOfElements = ourAnimals.length;
         System.out.println("Moja tablica zawiera " + numberOfElements + " znaków" );
     }
